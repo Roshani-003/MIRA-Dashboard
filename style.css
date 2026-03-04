@@ -320,12 +320,24 @@ body {
 }
 
 /* Footer */
-footer {
-    text-align: center;
-    padding: 30px;
-    background-color: #0A66C2;
+.site-footer {
+    background-color: #0A66C2; /* dark blue */
     color: white;
-    margin-top: 50px;
+    text-align: center;
+    padding: 15px 10px;
+    margin-top: 40px;
+    font-size: 0.9rem;
+}
+
+.site-footer .footer-links a {
+    color: white;
+    text-decoration: none;
+    margin: 0 5px;
+    transition: color 0.3s;
+}
+
+.site-footer .footer-links a:hover {
+    color: #ffdd57; /* optional: gold/yellow hover */
 }
 
 /* Responsive */
@@ -344,4 +356,5 @@ footer {
     .kpi-cards {
         flex-direction: column;
     }
+
 }
